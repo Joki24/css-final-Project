@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 16px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+body {
+    width: 400px;
+    height: 2000px;
+}
+
+header {
+    background: white;
+    height: 60px;
+}
+
+.headercontainer {
+    background: white;
+    width: 343px;
+    height: 28px;
+    display: flex;
+    
+}
+
+h1 {
+    color:#00001A;
+    padding: 0;    
+}
+
+.menuIcon {
+    color:#00001A;
+    padding: 0;
+    margin-left: 250px;
+    width: 40px;
+    height: 17px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    margin: 15px 0;
+    padding: 0
+    
+}
+
+.navigationHeader {
+    padding: 0;
+    margin: 0;
+    display: none;
+
+}
+
+main {
+    background: white;
+    height: 1260px;
+}
+
+.containergrid {
+    background: white;
+    width: 343px;
+    height: 636px;
+    display: grid
+}
+
+.divgrid {
+    margin-bottom: -75px;
+    padding: 0;
+    width: 343px;
+    height: 600px
+    
+}
+
+.mainImage {
+    margin: 0;
+    padding: 0;
+    width: 343px;
+    height: 300px
+    
+}
+
+.mainTitle {
+    color:#00001A;
+    padding: 0;
+    width: 343px;
+    height: 120px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+}
+
+.mainText {
+    padding: 0;
+    width: 343px;
+    height: 104px;
+    color: #5E607A;
+}
+
+.mainButton {
+    padding: 0;
+    margin: 0;
+    width: 185px;
+    height: 48px;
+    background: #F15D51;
+    color: #FFFDFA;
+    text-transform: uppercase;
+    border: none;
+    
+}
+
+.mainButtonDesktop {
+    padding: 0;
+    margin: 0;
+    width: 185px;
+    height: 48px;
+    background: #F15D51;
+    color: #FFFDFA;
+    text-transform: uppercase;
+    border: none;
+    display: none;
+}
+
+.newMain {
+    background: #00001A;
+    display: grid;
+    width: 343px;
+    height: 489px;
+    margin: 0;
+    margin-top: 60px
+}
+
+.newContent {
+    color: white;
+    padding-top: 45px;
+    width: 302px;
+    height: 441px;
+    padding-left: 0;
+}
+
+.newTitle {
+    color: #E9AA52;
+    padding:0;
+    margin: 0;
+    width: 70px;
+    height: 32px
+}
+
+.newContentTitle {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFDFA;
+    padding: 0;
+    width: 290px;
+    height: 24px
+    
+}
+
+.newContentText {
+    width: 302px;
+    height: 52px;
+    padding: 0;
+    color: #C5C6CE;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    margin-top: 10px;
+}
+
+.line1, .line2 {
+    padding: 0;
+    width: 302px;
+    height: 1px;
+    border: solid #5E607A;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+section {
+    background: white;
+    height: 540px;
+    padding: 0;
+    margin: 0;
+    width: 430px;
+    display: flex;
+    
+}
+
+.sectionContainer {
+    background: white;
+    width: 343px;
+    height: 451px;
+    padding: 0;
+    margin: 30px;
+    display: grid;
+}
+
+.sectiongrid1, .sectiongrid2, .sectiongrid3 {
+    background: white;
+    width: 343px;
+    height: 129px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.topImage {
+    width: 100px;
+    height: 120px;
+    padding: 0;
+}
+
+.textSection {
+    display: grid;
+    margin-left: 20px;
+    display: block;
+    padding: 0;
+    width: 219px;
+}
+
+.headingM {
+    color: #C5C6CE;
+    padding: 0;
+    width: 38px;
+    height: 32px;
+}
+
+.headingXS {
+    color: #00001A;
+    padding: 0;
+    width: 219px;
+    height: 24px;
+}
+
+.textHeading{
+    width: 219px;
+    height: 52px;
+    padding: 0;
+}
+.sectionBox {
+    border: 3px solid gray;
+    height: 25px;
+    width: 3px;
+}
+
+@media (min-width: 750px) {
+    body {
+        width: 1440px;
+        height: 1024px;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .headercontainer {
+        background: white;
+        width: 1110px;
+        height: 39,9px;
+        
+    }
+
+    h1 {
+        width: 64px;
+        height: 40px;
+    }
+
+    .menuNavigation {
+        display: flex;
+        padding-left: 370px;
+        color:#5E607A;
+    }
+    .navigationHeader {
+        padding-right: 20px;
+        margin: 0;
+        display: flex;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    .bar1, .bar2, .bar3 {
+        display: none;
+        
+    }
+    
+    main {
+        height: 635px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .desktopTableMain {
+        background: white;
+        width: 1110px;
+        height: 511px;
+        display: grid;
+        grid-template-columns: 730px 350px;
+    }
+
+    .containergrid {
+        padding: 0;
+        width: 730px;
+        height: 584px;
+        display: grid;
+        grid-template-columns: 365px 365px;
+    }
+
+    .divgrid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .titleTextButton {
+        width: 730px;
+        height: 183px;
+        padding-top: 55px;
+        display: grid;
+        grid-template-columns: 350px 350px;
+    }
+
+    .mainImage {
+        padding-left: 20px;
+        width: 55vh;
+        height: 25vh;
+        grid-column: 1/3;
+    }
+
+    .mainTitle {
+        height: 182px;
+        font-size: 56px;
+        font-weight: 800;
+        line-height: 56px;
+        grid-row: 1/3;
+    }
+
+    .mainText {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .mainButtonDesktop {
+        padding: 0;
+        margin: 0;
+        width: 185px;
+        height: 48px;
+        background: #F15D51;
+        color: #FFFDFA;
+        text-transform: uppercase;
+        border: none;
+        display: block;
+    }
+
+    .mainButton {
+        display: none;
+    }
+
+    .newMain {
+        margin: 0;
+    }
+
+    section {
+        justify-content: center;
+        width: 1440px;
+        height: 200px;
+    }
+
+    .sectionContainer {
+        display: flex;
+        width: 1110px;
+        height: 129px;
+        
+    }
+
+    .topImage {
+        height: 100%
+    }
+
+    .headingM {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .headingXS {
+        font-weight: 800;
+        font-size: 18px;
+        padding: 8px;
+        padding-left: 0;
+    }
+
+    .textHeading {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 26px;
+    }
+}
